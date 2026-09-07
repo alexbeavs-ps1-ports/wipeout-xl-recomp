@@ -7,3 +7,5 @@ The shared archive gate now accepts only exact hashes for two intentional SDK pa
 Native CI and Windows package acceptance are pending.
 
 2026-09-07: Native canary gates required the existing PSX-BUILD-024 C-linkage correction and the exact public recomp-ui be8ac1d portable tool text fix. The package now carries all four complete public dependency identities (PSX-PUB-027). No game runtime behavior or recipe settings changed in this update. Native build and package checks remain required.
+
+2026-09-07: Canonical12-track setup verified its disc digest, then rejected the lowercase boot filename retained by the old Windows-only recipe. The actual ISO9660 entry is SCUS_943.51. Portable EXE and generated-file names now use that exact case. This is the PSX-TOOL-011 path-identity boundary; no retail bytes, seed tokens, or runtime settings changed. Verify-disc and reader mapping had already passed; preparation and the final source build are rerun.

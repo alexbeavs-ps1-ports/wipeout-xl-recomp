@@ -3,7 +3,7 @@
 name = "Wipeout XL"
 id = "SCUS-94351"
 players = 1
-exe = "disc/scus_943.51"
+exe = "disc/SCUS_943.51"
 disc = "disc/Wipeout XL (USA).cue"
 load_address = "0x80010000"
 entry_pc = "0x80082D70"
@@ -14,7 +14,7 @@ stack_base = "0x801FFFF0"
 out_dir = "disc"
 bin_name = "Wipeout XL (USA) (Track 01).bin"
 cue_name = "Wipeout XL (USA).cue"
-boot_exe = "scus_943.51"
+boot_exe = "SCUS_943.51"
 known_sizes = [86045568, 713836704]
 known_md5 = ["bee4ab5e4835235ccf6f16bc8caea5e6", "8fffabe8ba3348b28f1e6010496e6d05"]
 known_sha1 = ["5694008c30fa9896d17afdd6281e4bebb9f63953", "d3cb3121a4d1d0d00fa7736a7c5c5b71f22987be"]
