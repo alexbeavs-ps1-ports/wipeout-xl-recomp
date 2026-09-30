@@ -5,6 +5,8 @@ id = "SCUS-94351"
 players = 1
 exe = "disc/SCUS_943.51"
 disc = "disc/Wipeout XL (USA).cue"
+discs = ["disc/Wipeout XL (USA).cue"]
+disc_serials = ["SCUS-94351"]
 load_address = "0x80010000"
 entry_pc = "0x80082D70"
 text_size = "0x00085000"
@@ -21,7 +23,7 @@ known_sha1 = ["5694008c30fa9896d17afdd6281e4bebb9f63953", "d3cb3121a4d1d0d00fa77
 known_crc32 = ["18ebdeb3", "10d8a234"]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
